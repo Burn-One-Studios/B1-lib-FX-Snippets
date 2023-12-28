@@ -1,0 +1,155 @@
+{
+	"CLIENT/B1.getPlayerData": {
+		"prefix": "getPlayerData",
+		"body": ["local ${1:variable} = B1.getPlayerData()"],
+		"description": "Calls the B1.getPlayerData function"
+	},
+	"CLIENT/B1.getCitizenId": {
+		"prefix": "getCitizenId",
+		"body": [
+			"B1.getCitizenId()"
+		],
+		"description": "Calls the B1.getCitizenId function"
+	},
+	"CLIENT/B1.getPlayerJob": {
+		"prefix": "getPlayerJob",
+		"body": [
+			"B1.getPlayerJob()"
+		],
+		"description": "Calls the B1.getPlayerJob function"
+	},
+	"CLIENT/B1.getPlayerGang": {
+		"prefix": "getPlayerGang",
+		"body": [
+			"B1.getPlayerGang()"
+		],
+		"description": "Calls the B1.getPlayerGang function"
+	},
+	"CLIENT/B1.getPlayerMoney": {
+		"prefix": "getPlayerMoney",
+		"body": [
+			"B1.getPlayerMoney(${1:type})"
+		],
+		"description": "Calls the B1.getPlayerMoney function"
+	},
+	"CLIENT/B1.getPlayerName": {
+		"prefix": "getPlayerName",
+		"body": [
+			"local ${1:variable} = B1.getPlayerName()"
+		],
+		"description": "Calls the B1.getPlayerName function"
+	},
+	"CLIENT/B1.notify": {
+		"prefix": "notify",
+		"body": [
+			"-- Remember to add 'source' as the first variable if on server",
+			"B1.notify(${1:message}, ${2:type}, ${3:length})"
+		],
+		"description": "Calls the B1.notify function"
+	},
+	"SERVER/B1.getPlayer": {
+		"prefix": "getPlayer",
+		"body": [
+			"local ${1:variable} = B1.getPlayer(${2:source})"
+		],
+		"description": "Calls the B1.getPlayer function on the server"
+	},
+	"SERVER/B1.getPlayers": {
+		"prefix": "getPlayers",
+		"body": [
+			"B1.getPlayers()"
+		],
+		"description": "Calls the B1.getPlayers function on the server"
+	},
+	"SERVER/B1.addMoney": {
+		"prefix": "addMoney",
+		"body": [
+			"B1.addMoney(${1:source}, ${2:moneyType}, ${3:amount}, ${4:reason})"
+		],
+		"description": "Calls the B1.addMoney function on the server"
+	},
+	"SERVER/B1.removeMoney": {
+		"prefix": "removeMoney",
+		"body": [
+			"B1.removeMoney(${1:source}, ${2:moneyType}, ${3:amount}, ${4:reason})"
+		],
+		"description": "Calls the B1.removeMoney function on the server"
+	},
+	"SERVER/B1.getMoney": {
+		"prefix": "getMoney",
+		"body": [
+			"local ${1:variable} = B1.getMoney(${2:source}, ${3:moneyType})"
+		],
+		"description": "Calls the B1.getMoney function on the server"
+	},
+	"SERVER/B1.setMoney": {
+		"prefix": "setMoney",
+		"body": [
+			"B1.setMoney(${1:source}, ${2:moneyType}, ${3:amount})"
+		],
+		"description": "Calls the B1.setMoney function on the server"
+	},
+	"SHARED/B1.updateNeed": {
+		"prefix": "updateNeed",
+		"body": [
+			"B1.updateNeed(${1:need}, ${2:type}, ${3:amount})"
+		],
+		"description": "Calls the B1.updateNeed function on the client and server"
+	},
+	"SHARED/B1.log": {
+		"prefix": "log",
+		"body": [
+			"B1.log(${1:type}, ${2:message})"
+		],
+		"description": "Calls the B1.log function"
+	},
+	"SHARED/B1.randomStr": {
+		"prefix": "randomStr",
+		"body": [
+			"B1.randomStr(${1:length})"
+		],
+		"description": "Calls the B1.randomStr function"
+	},
+	"SHARED/B1.randomInt": {
+		"prefix": "randomInt",
+		"body": [
+			"B1.randomInt(${1:length})"
+		],
+		"description": "Calls the B1.randomInt function"
+	},
+	"SHARED/B1.splitStr": {
+		"prefix": "splitStr",
+		"body": [
+			"B1.splitStr(${1:str}, ${2:delimiter})"
+		],
+		"description": "Calls the B1.splitStr function"
+	},
+	"SHARED/B1.trim": {
+		"prefix": "trim",
+		"body": [
+			"B1.trim(${1:value})"
+		],
+		"description": "Calls the B1.trim function"
+	},
+	"SHARED/B1.firstToUpper": {
+		"prefix": "firstToUpper",
+		"body": [
+			"B1.firstToUpper(${1:value})"
+		],
+		"description": "Calls the B1.firstToUpper function"
+	},
+	"SHARED/B1.round": {
+		"prefix": "round",
+		"body": [
+			"B1.round(${1:value}, ${2:numDecimalPlaces})"
+		],
+		"description": "Calls the B1.round function"
+	},
+	"SERVER/B1.spawnVehicle": {
+		"prefix": "spawnVehicle",
+		"body": [
+			"B1.spawnVehicle(${1:source}, ${2:model}, ${3:coords}, ${4:warp})"
+		],
+		"description": "Calls the B1.spawnVehicle function"
+	}
+}

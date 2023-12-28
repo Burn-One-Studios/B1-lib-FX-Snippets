@@ -1,0 +1,30 @@
+{
+  "name": "b1-lib-snippets",
+  "publisher": "Burn One Studios",
+  "displayName": "B1-lib FX Snippets",
+  "description": "A collection of snippets to work with B1-lib",
+  "version": "1.7.0",
+  "icon": "images/logo.png",
+  "homepage": "https://github.com/Burn One Studios/QBCore-FX-Snippets/blob/main/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Burn One Studios/QBCore-FX-Snippets.git"
+  },
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "author": {
+    "name": "Kings"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "lua",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
