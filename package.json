@@ -3,12 +3,12 @@
   "publisher": "Kings311",
   "displayName": "B1-lib FX Snippets",
   "description": "A collection of snippets to work with B1-lib",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "icon": "images/logo.png",
-  "homepage": "https://github.com/Burn One Studios/QBCore-FX-Snippets/blob/main/README.md",
+  "homepage": "https://github.com/Burn-One-Studios/B1-lib-FX-Snippets/blob/main/README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Burn One Studios/QBCore-FX-Snippets.git"
+    "url": "https://github.com/Burn-One-Studios/B1-lib-FX-Snippets"
   },
   "engines": {
     "vscode": "^1.71.0"

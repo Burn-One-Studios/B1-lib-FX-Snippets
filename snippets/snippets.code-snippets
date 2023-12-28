@@ -42,10 +42,16 @@
 	"CLIENT/B1.notify": {
 		"prefix": "notify",
 		"body": [
-			"-- Remember to add 'source' as the first variable if on server",
 			"B1.notify(${1:message}, ${2:type}, ${3:length})"
 		],
-		"description": "Calls the B1.notify function"
+		"description": "Calls the B1.notify function on the client"
+	},
+	"SERVER/B1.notify": {
+		"prefix": "notify",
+		"body": [
+			"B1.notify(${1:source}, ${2:message}, ${3:type}, ${4:length})"
+		],
+		"description": "Calls the B1.notify function on the server"
 	},
 	"SERVER/B1.getPlayer": {
 		"prefix": "getPlayer",
@@ -90,7 +96,7 @@
 		"description": "Calls the B1.setMoney function on the server"
 	},
 	"SHARED/B1.updateNeed": {
-		"prefix": "updateNeed",
+		"prefix": ["updateNeed", "need"]],
 		"body": [
 			"B1.updateNeed(${1:need}, ${2:type}, ${3:amount})"
 		],
@@ -132,7 +138,7 @@
 		"description": "Calls the B1.trim function"
 	},
 	"SHARED/B1.firstToUpper": {
-		"prefix": "firstToUpper",
+		"prefix": ["firstToUpper", "up"],
 		"body": [
 			"B1.firstToUpper(${1:value})"
 		],

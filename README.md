@@ -4,7 +4,7 @@ This VS Code extension provides a collection of useful snippets for working with
 
 ## Installation
 
-You can install this extension from the [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=Burn One Studios.-snippets) or search for "B1-lib FX Snippets" in the VSCode extension browser.
+You can install this extension from the [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=Kings311.b1-lib-snippets) or search for "B1-lib FX Snippets" in the VSCode extension browser.
 
 ## Features
 
